@@ -1,7 +1,7 @@
-import profile from "../../../assets/img/profile.jpg"
+import profile from "../../../assets/img/Logo.png"
 
 export const PictureForm = () => {
     return (
-        <img src={profile} alt="profile" className="w-24 h-28 rounded-full mt-8 mb-5"/>
+        <img src={profile} alt="profile" className="m-0 w-2/3"/>
     );
 }

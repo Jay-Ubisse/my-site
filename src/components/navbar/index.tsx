@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link"
 
 export const NavigationBar = () => {
     return (
-        <div className="fixed left-4 bottom-32 py-11 pl-4 gap-9 shadow-lg drop-shadow-lg shadow-slate-700 bg-[#03071E] w-20 h-94 rounded-full flex flex-col items-start text-xl text-slate-200">
+        <div className="fixed left-4 top-32 py-11 pl-4 gap-9 shadow-lg drop-shadow-lg shadow-slate-700 bg-[#03071E] w-20 h-94 rounded-full flex flex-col items-start text-xl text-slate-200">
             <HashLink to="../components/#about" smooth className="bg-transparent rounded-full px-3 h-12 text-white hover:text-[#FFBA08] hover:bg-[#03071E] flex items-center group">
                 <House className="h-7 w-7" />
                 <span className="max-w-0 pl-1 overflow-hidden group-hover:max-w-xs transition-all duration-100 ease-linear">Home</span>
