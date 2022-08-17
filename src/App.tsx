@@ -13,7 +13,7 @@ export const App = () => {
       <HeaderArea />
       <main className="relative">
         <NavigationBar />
-        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-col items-end gap-2 mr-5">
           <AboutArea />
           <SkillsArea />
           <ProjectstArea />

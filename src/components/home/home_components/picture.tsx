@@ -1,4 +1,4 @@
-import profile from "../../../assets/img/Logo.png"
+import profile from "../../../assets/img/Logo-small.png"
 
 export const PictureForm = () => {
     return (
